@@ -1,15 +1,16 @@
 import csv
+import os
 
 # Initialize a variable to store the total number of votes
 total_votes = 0
 
 # Path to the CSV file
-file_path = 'budget_data.csv'
+file_path = os.path.join("Resources","budget_data.csv")
 
 # Open the CSV file and read its contents
 with open(file_path, 'r') as file:
     # Create a CSV reader object
-    csv_reader = csv.reader(file)
+    csv_reader = csv.reader(csv)
     
     # Skip the header row
     next(csv_reader)
