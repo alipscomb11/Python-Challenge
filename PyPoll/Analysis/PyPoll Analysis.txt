@@ -1,15 +1,17 @@
 ---------------
-PyBank Analysis
+PyPoll Analysis
 ---------------
 
+Total Votes Cast: 369711
+List of candidates who received votes:
 Charles Casper Stockham
 Diana DeGette
-Raymon Anthony Doane   
+Raymon Anthony Doane
 Percentage of votes each candidate won:
 Candidate: 0.00%
 Charles Casper Stockham: 23.05%
 Diana DeGette: 73.81%
-Raymon Anthony Doane: 3.14%    
+Raymon Anthony Doane: 3.14%
 Total number of votes each candidate won:
 Charles Casper Stockham: 85213
 Diana DeGette: 272892

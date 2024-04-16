@@ -1,0 +1,11 @@
+---------------
+PyBank Analysis
+---------------
+
+Total number of months: 86
+Net Total: 22564198
+Total Months: 86
+Total Change in Profit/Losses: -706444
+Average Change in Profit/Losses: -8311.105882352942
+The greatest increase in profits was 1862002 on Aug-16.
+The greatest decrease in profits was -1825558 on Feb-14.
