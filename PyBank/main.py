@@ -1,3 +1,4 @@
+#Imports modules needed to connect path and manupulate the csv files
 import csv
 import os
 
@@ -78,7 +79,7 @@ with open(csv_file_path, 'r') as csvfile:
         if previous_profit_loss is not None:
             change = int(row[1]) - previous_profit_loss
             changes.append(change)
-            total_change += chang      
+            total_change += change      
         # Update previous_profit_loss for the next iteration
         previous_profit_loss = int(row[1])
 

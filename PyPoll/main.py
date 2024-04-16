@@ -1,19 +1,24 @@
 import csv
 import os
 
-def count_votes(csv_file):
-    total_votes = 0
+# Establish file path to the CSV file
+csv_file = os.path.join("Resources", "election_data.csv")
 
-    with open(csv_file, 'r') as file:
-        reader = csv.DictReader(file)
-        total_votes = sum(1 for row in reader)
+# Initialize the total votes counter (count_votes(csv_file):
+total_votes = 0
 
-    return total_votes
+# Open the CSV file
+with open(csv_file, 'r') as file:
 
-if __name__ == "__main__":
-    csv_file = os.path.join('Resources', 'election_data.csv')
-    total_votes = count_votes(csv_file)
-    print(f"Total votes cast: {total_votes}")
+# Create CSV reader object
+        csv_reader = csv.reader(file, delimiter=',')
+        next(csv_reader)
+
+# Iterate over each row
+        for row in csv_reader:
+            total_votes+=1
+
+print("Total Votes Cast:",total_votes)
 
 
 

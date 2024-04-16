@@ -1,0 +1,17 @@
+---------------
+PyBank Analysis
+---------------
+
+Charles Casper Stockham
+Diana DeGette
+Raymon Anthony Doane   
+Percentage of votes each candidate won:
+Candidate: 0.00%
+Charles Casper Stockham: 23.05%
+Diana DeGette: 73.81%
+Raymon Anthony Doane: 3.14%    
+Total number of votes each candidate won:
+Charles Casper Stockham: 85213
+Diana DeGette: 272892
+Raymon Anthony Doane: 11606
+The winner of the election is: Diana DeGette
